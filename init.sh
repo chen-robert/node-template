@@ -1,5 +1,1 @@
-#!/bin/bash
-
-mkdir $DIR
-cp Dockerfile .gitignore .dockerignore index.js $DIR
-cd $DIR && mkdir public views && git init
+npm init && npm i express body-parser express-autoprefixer less-middleware cookie-session && npm i --save-dev nodemon
